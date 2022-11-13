@@ -1,0 +1,189 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align:justify;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#btn-delete {
+  margin-left: -40px;
+}
+
+@media screen and (max-width: 600px) {
+  #btn-delete { margin-left: -20px; }
+  .add-customer {margin-top: -10%; }
+}
+
+@media screen and (max-width: 900px) {
+  #btn-delete { margin-left: -20px; }
+}
+
+@media screen and (max-width: 1200px) {
+  #btn-delete { margin-left: -20px; }
+}
+
+#footer_dis{
+    background-color: rgb(6, 4, 29);
+    padding: -15%;
+}
+
+#footer_ic {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 100%;
+}
+
+#lisans {
+    color: rgb(245, 228, 228);
+    font-size: 60%;
+}
+
+
+#tbl_toplam {
+    text-align: right;
+    padding-right: 20%;
+}
+
+#tbl_body {
+    font-size: 120%;
+}
+
+#tr_toplam {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+#tbl_toplam2 {
+    text-align: right;
+    padding-right: 20%;
+}
+
+#tbl_body2 {
+    font-size: 120%;
+}
+
+#tr_toplam2 {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.customer > div > label {
+    font-weight: 500;
+    color: black;
+}
+
+.customerInfo {
+    padding-left: 5%;
+}
+
+.customer {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.customer > div > input {
+    background-color: whitesmoke;
+}
+
+.addlist {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.addlistInfo {
+    padding-left: 5%;
+}
+
+.needs-list {
+    padding: 5%;
+    font-size: 128%;
+    font-weight: 300;
+}
+
+#table-list {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #eff7ff;
+}
+
+.table-list-info {
+    margin-left: 5%;
+}
+
+#btn-form {
+    background-color: #328b32;
+}
+
+#full-table {
+    width: 100%;
+}
+
+#tbl-td {
+    color:black;
+}
+
+#list-delete-button {
+    float: right;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .addlist {
+        padding: 2%;
+        padding-top: 0;
+    }
+
+    .add-customer {
+        margin-top: -6%; 
+    }
+    
+    .addlistInfo {
+        padding-left: 2%;
+    }
+
+    .customerInfo {
+        padding-left: 2%;
+    }
+    
+    .customer {
+        padding: 2%;
+        padding-top: 0;
+    }
+
+    .table-list-info {
+        margin-left: 2%;
+    }
+
+    .needs-list {
+        padding: 2%
+    }
+    #table-list {
+        width: 100%;
+        margin-left: 0;
+    }
+  }
